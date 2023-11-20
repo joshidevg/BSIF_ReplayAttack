@@ -1,0 +1,8 @@
+/Big_Data
+/Small_Data
+*.png
+/filters_txt
+ICA*.txt
+*.csv
+small*
+big*
