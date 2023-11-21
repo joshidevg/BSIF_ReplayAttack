@@ -55,6 +55,7 @@ def plot_and_print(model, testfile, title):
     frr1 = frr[np.where(far == 0)[0][-1]]
     print("FAR: ", far1)
     print("FRR: ", frr1)
+    # accuracy = 
     
     # Plot the FAR and FRR
 
@@ -77,3 +78,6 @@ def plot_and_print(model, testfile, title):
 if __name__ == '__main__':
     plot_and_print('small_Webcam_Attack_Model.pkl', 'small_testing.csv', 'a portion of the testing data')
     # plot_and_print('big_Webcam_Attack_Model.pkl', 'big_testing.csv', 'the entire testing data')
+    plot_and_print('small_BSIF_13_Webcam_Attack_Model.pkl', 'small_BSIF_13_testing.csv', 'a portion of the testing data with 13x13 patch')
+    plot_and_print('small_BSIF_17_Webcam_Attack_Model.pkl', 'small_BSIF_17_testing.csv', 'a portion of the testing data with 17x17 patch')
+    plot_and_print('small_BSIF_21_Webcam_Attack_Model.pkl', 'small_BSIF_21_testing.csv', 'a portion of the testing data with 21x21 patch')
