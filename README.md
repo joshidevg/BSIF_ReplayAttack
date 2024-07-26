@@ -1,7 +1,7 @@
 ﻿# BSIF_ReplayAttack
 
 ### For obtaining the Dataset
-Contact us at 202003007@daiict.ac.in
+Contact us at joshidevg.work@daiict.ac.in
 
 ### For processing the Dataset
 run processing.ipynb
